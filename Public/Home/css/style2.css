@@ -1,0 +1,881 @@
+@charset "utf-8";
+/*dede58.com 做最好的织梦模板*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, figure {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+a:link, a:visited {
+	text-decoration:none;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-o-transition:all 0.3s ease-in-out 0s;
+}
+a:active, a:hover {
+	text-decoration:none;
+	cursor:pointer;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-o-transition:all 0.3s ease-in-out 0s;
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+	list-style-image:none;
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+	-ms-interpolation-mode:bicubic;
+	vertical-align:middle;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+html {
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	overflow-x:hidden;
+}
+body {
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	color:#525151;
+	background:#fff;
+}
+.layout:after, .clearfix:after {
+	content:"\0020";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.layout, .clearfix {
+*zoom:1;
+}
+.fc {
+	text-align:center;
+}
+.fr {
+	text-align:right;
+}
+.l {
+	float:left;
+	display:inline-block;
+}
+.r {
+	float:right;
+	display:inline-block;
+}
+.vt {
+	vertical-align:top;
+}
+.vm {
+	vertical-align:middle;
+}
+.i {
+	background-image:url("../images/ico.png")/*tpa=http://www.haiq.com/templets/default/images/ico.png*/;
+	_background-image:url("../images/ico.gif")/*tpa=http://www.haiq.com/templets/default/images/ico.gif*/;
+	background-repeat:no-repeat;
+}
+.inner {
+	width:1000px;
+	margin:0px auto;
+}
+.top {
+	position:relative;
+	padding:10px 0px 0px;
+}
+.logo {
+	position:absolute;
+	left:0px;
+	top:26px;
+}
+.serachbox {
+	float:right;
+	display:inline-block;
+	background:url("../images/serach_bg.png")/*tpa=http://www.haiq.com/templets/default/images/serach_bg.png*/ no-repeat;
+	_background:url("../images/serach_bg.gif")/*tpa=http://www.haiq.com/templets/default/images/serach_bg.gif*/ no-repeat;
+	width:275px;
+	height:25px;
+	padding:0px 0px 0px 14px;
+	margin-right:9px;
+}
+.search-txt, .search-btn {
+	float:left;
+	display:inline-block;
+	margin:0px;
+	height:23px;
+	line-height:23px;
+	padding:1px 0px;
+	border:0px none;
+	color:#1f1f1f;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.search-txt {
+	width:236px;
+	margin:0px 10px 0px 0px;
+	background:none;
+}
+.search-btn {
+	width:28px;
+	background:none;
+}
+.languagebox {
+	height:25px;
+	float:right;
+	display:inline-block;
+}
+.languagebox .i {
+	display:inline-block;
+	width:25px;
+	height:25px;
+	font:12px/25px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	float:left;
+	margin-left:6px;
+}
+.languagebox .i {
+	background-position:-44px -32px;
+}
+.languagebox .i.act {
+	background-position:-44px 0px;
+}
+.nav {
+	padding:40px 0px 0px 0px;
+	height:45px;
+	float:right;
+	display:block;
+}
+.nav a {
+	font:14px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#3b3b3b;
+}
+.nav a:hover, .nav a.act {
+	color:#039e9e;
+}
+.nav li {
+	float:left;
+	display:inline-block;
+	padding:0px 0px 0px 36px;
+}
+.banner {
+	height:410px;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.bannerbox {
+	width:100%;
+	height:410px;
+	position:relative;
+	overflow:hidden;
+}
+.bannerbox .pic {
+	background-position:center top;
+	display:block;
+	width:100%;
+	height:410px;
+	background-repeat:no-repeat;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url("../images/bx_loader.gif")/*tpa=http://www.haiq.com/templets/default/images/bx_loader.gif*/ center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+*zoom: 1;
+*display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #fff;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 10px 0px 0px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #11a3a3;
+}
+.bx-wrapper .bx-prev {
+	left: 11%;
+	background: url("../images/num_bg.png")/*tpa=http://www.haiq.com/templets/default/images/num_bg.png*/ no-repeat 0 bottom;
+}
+.bx-wrapper .bx-next {
+	right: 11%;
+	background: url("../images/num_bg.png")/*tpa=http://www.haiq.com/templets/default/images/num_bg.png*/ no-repeat right bottom;
+}
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 top;
+}
+.bx-wrapper .bx-next:hover {
+	background-position: right top;
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	outline: 0;
+	width: 54px;
+	height: 54px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url("../images/controls.png")/*tpa=http://www.haiq.com/templets/default/images/controls.png*/ -86px -11px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url("../images/controls.png")/*tpa=http://www.haiq.com/templets/default/images/controls.png*/ -86px -44px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+.footbox {
+	border-top:7px solid #11a3a3;
+	background-color:#373737;
+	padding:25px 0px 35px;
+	color:#868686;
+}
+.footbox a:link, .footbox a:visited {
+	color:#868686;
+}
+.footbox a:active, .footbox a:hover {
+	color:#fff;
+}
+.foot {
+	width:1000px;
+	margin:0px auto;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.finfobox {
+	float:left;
+	display:inline-block;
+	width:360px;
+	font-size:14px;
+}
+.finfobox p {
+	padding:6px 0px;
+}
+.finfobox p.num {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.finfobox .i {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	float:left;
+	margin:0px 8px;
+}
+.finfobox .fi1 {
+	background-position:0px 0px;
+}
+.finfobox .fi2 {
+	background-position:0px -20px;
+}
+.finfobox .fi3 {
+	background-position:0px -40px;
+}
+.frighbox {
+	float:right;
+	display:block;
+}
+.fnav {
+	text-align:right;
+	height:68px;
+	margin-bottom:4px;
+}
+.gobox {
+	width:50px;
+	position:fixed;
+	_position:absolute;
+	right:0px;
+	bottom:10%;
+	text-align:center;
+	line-height:100%;
+	z-index:9999;
+	height:50px;
+	overflow:hidden;
+	display:none;
+}
+.gobox a {
+	background:url("../images/scrolltop.gif")/*tpa=http://www.haiq.com/templets/default/images/scrolltop.gif*/ no-repeat scroll center center #b4b4b4;
+	width:50px;
+	height:50px;
+	display:block;
+}
+.gobox a:hover {
+	background-color:#11a3a3;
+}
+.pagebox {
+	padding:30px 0px 36px;
+	background-color:#11a3a3;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ibox-t3 {
+	text-align:center;
+	color:#d8fafa;
+}
+.ibox-t3 .en {
+	text-transform:uppercase;
+	font:14px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ibox-t3 .zh {
+	font:20px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ptname {
+	padding:36px 0px 0px;
+	font:30px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+}
+.pagenav {
+	text-align:center;
+	padding:50px 0px 0px;
+}
+.pagenav a:link, .pagenav a:visited {
+	color:#fff;
+}
+.pagenav a:active, .pagenav a:hover {
+	color:#11a3a3;
+}
+.pagenav li {
+	width:106px;
+	height:31px;
+	display:inline-block;
+	background:url("../images/pnav.png")/*tpa=http://www.haiq.com/templets/default/images/pnav.png*/ no-repeat scroll left bottom;
+	_background:url("../images/pnav.gif")/*tpa=http://www.haiq.com/templets/default/images/pnav.gif*/ no-repeat scroll left bottom;
+	margin:0px 6px;
+}
+.pagenav li a {
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	height:31px;
+	line-height:31px;
+	font-size:14px;
+}
+.pagenav li a:hover, .pagenav li a.act {
+	background:url("../images/pnav.png")/*tpa=http://www.haiq.com/templets/default/images/pnav.png*/ no-repeat scroll left top;
+	_background:url("../images/pnav.gif")/*tpa=http://www.haiq.com/templets/default/images/pnav.gif*/ no-repeat scroll left top;
+	color:#11a3a3;
+}
+.container {
+	padding:70px 0px 140px;
+	width:1000px;
+	margin:0px auto;
+}
+.page {
+	color:#3b3b3b;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	line-height:1.8;
+}
+.page a:link, .page a:visited {
+	color:#11a3a3;
+}
+.page a:active, .page a:hover {
+	color:#3b3b3b;
+}
+.bannerbox .bx-wrapper .bx-pager {
+	padding:0px;
+	height:16px;
+	position:absolute;
+	left:0px;
+	width:100%;
+	bottom:14px;
+	text-align:center;
+}
+.bannerbox .bx-wrapper .bx-pager.bx-default-pager a {
+	overflow:hidden;
+	text-indent:10em;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+}
+.bannerbox .bx-wrapper .bx-next, .bannerbox .bx-wrapper .bx-prev {
+	background:url("../images/banner_lr.png")/*tpa=http://www.haiq.com/templets/default/images/banner_lr.png*/ no-repeat;
+	width:48px;
+	height:48px;
+	overflow:hidden;
+	margin-top:-24px;
+	top:50%;
+}
+.bannerbox .bx-wrapper .bx-prev {
+	background-position:0px 0px;
+	left:-48px;
+	background-color:rgba(0, 0, 0);
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.bannerbox .bx-wrapper .bx-next {
+	background-position:-48px 0px;
+	right:-48px;
+	background-color:rgba(0, 0, 0);
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.bannerbox .bx-wrapper .bx-prev:hover, .bannerbox .bx-wrapper .bx-next:hover {
+	background-color:rgba(209, 0, 0);
+	background-color:rgba(17, 163, 163, 0.5);
+}
+.aboutbox .t {
+	text-align:center;
+	color:#3b3b3b;
+	font:bold 30px/1.4 Arial, Helvetica, sans-serif;
+	margin:0px 0px 30px 0px;
+}
+.aboutbox .c .y {
+	font:bold 200px/1 Arial, Helvetica, sans-serif;
+	color:#d9d9d9;
+	float:left;
+	display:inline-block;
+	width:182px;
+}
+.aboutbox .c .txt {
+	width:818px;
+	float:right;
+	display:inline-block;
+	font:14px/1.8 Arial, Helvetica, sans-serif;
+	color:#3b3b3b;
+	padding:18px 0px 38px;
+}
+.iboxmore {
+	margin:0px auto;
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	font:14px/40px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background:url("../images/ibox_more.gif")/*tpa=http://www.haiq.com/templets/default/images/ibox_more.gif*/ no-repeat scroll left bottom;
+	width:202px;
+	height:40px;
+}
+.iboxmore:hover {
+	background-position:0px 0px;
+}
+.imglist {
+	padding-top:50px;
+}
+.imglist li {
+	float:left;
+	display:inline-block;
+	width:500px;
+	height:313px;
+	overflow:hidden;
+}
+.propage {
+	background:url("../images/p1.gif")/*tpa=http://www.haiq.com/templets/default/images/p1.gif*/ repeat-y scroll 261px 0px;
+	width:1000px;
+	margin:40px auto 85px;
+}
+.siderpage {
+	width:240px;
+	float:left;
+	display:inline-block;
+	padding-right:20px;
+}
+.rightpage {
+	width:738px;
+	float:right;
+	display:inline-block;
+}
+.rightpage .searchbox {
+	width:594px;
+	margin:0px auto;
+}
+.rightpage .searchbox .search-txt {
+	width:430px;
+}
+.mt {
+	padding-bottom:12px;
+}
+.mt a {
+	font:24px/1.2 Arial, Helvetica, sans-serif;
+	color:#11a3a3;
+	text-transform:uppercase;
+}
+.mt a:hover {
+	color:#3b3b3b;
+}
+.mc a:link, .mc a:visited {
+	color:#3b3b3b;
+}
+.mc a:active, .mc a:hover {
+	color:#11a3a3;
+}
+.mc a.act {
+	color:#11a3a3;
+}
+.mc li {
+	padding:5px 0px 0px 12px;
+	line-height:1.4;
+	background:url("../images/mc2.gif")/*tpa=http://www.haiq.com/templets/default/images/mc2.gif*/ no-repeat scroll left 9px;
+}
+.mc ul {
+	display:none;
+}
+.mc ul.submc {
+	display:block;
+}
+.mc li.parent {
+	background:url("../images/mc1.gif")/*tpa=http://www.haiq.com/templets/default/images/mc1.gif*/ no-repeat scroll left 9px;
+}
+.prolpage {
+	float:right;
+	display:inline-block;
+	width:698px;
+	overflow:hidden;
+}
+.prolpage a:link, .prolpage a:visited {
+	color:#3b3b3b;
+}
+.prolpage a:active, .prolpage a:hover {
+	color:#11a3a3;
+}
+.prolname {
+	font:24px/1.2 Arial, Helvetica, sans-serif;
+	padding:0px 0px 32px 0px;
+	color:#11a3a3;
+}
+.prollist {
+	width:100%;
+	overflow:hidden;
+}
+.prollist ul {
+	width:735px;
+}
+.prollist li {
+	float:left;
+	display:inline-block;
+	width:209px;
+	height:200px;
+	padding-right:36px;
+}
+.prollist a {
+	display:block;
+}
+.prollist a .img {
+	width:201px;
+	height:134px;
+	padding:4px;
+	background-color:#dedede;
+	margin-bottom:10px;
+}
+.prollist a:hover .img {
+	background-color:#11a3a3;
+}
+#paging {
+	text-align:center;
+	padding:25px 0px;
+}
+#paging a, #paging span {
+	padding:4px 8px;
+	border:1px solid #ddd;
+	background-color:#fff;
+	color:#747474;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+#paging span {
+	background-color:#11a3a3;
+	border:1px solid #11a3a3;
+	color:#fff;
+}
+.proDname {
+	padding-bottom:18px;
+}
+.proDname span {
+	display:inline-block;
+	padding:4px 40px 4px 8px;
+	background-color:#11a3a3;
+	color:#fff;
+}
+.pi {
+	border:4px solid #dedede;
+	width:472px;
+	height:280px;
+	margin-bottom:22px;
+}
+.proSnav ul {
+	width:1002px;
+}
+.proSnav li {
+	float:left;
+	display:inline-block;
+	width:499px;
+	margin-right:2px;
+	text-align:center;
+	height:40px;
+	font:16px/40px Arial, Helvetica, sans-serif;
+	background-color:#dfdfdf;
+	color:#3b3b3b;
+}
+.proSnav li.act {
+	background-color:#11a3a3;
+	color:#fff;
+}
+.proSnav li.act .cblue {
+	color:#fff;
+}
+.proSnav li.act a {
+	background-color:#11a3a3;
+	color:#fff;
+}
+.proSnav a {
+	text-align:center;
+	height:40px;
+	font:16px/40px Arial, Helvetica, sans-serif;
+	background-color:#dfdfdf;
+	color:#3b3b3b;
+	display:block;
+}
+.proSnav a:hover, .proSnav a.act {
+	background-color:#959595;
+	color:#fff;
+}
+.cblue {
+	color:#11a3a3;
+}
+.projg {
+	padding:20px 0px;
+	font-size:14px;
+}
+.proslsit {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left top;
+	padding:0px 0px 164px 0px;
+	position: relative;
+	width: 100%;
+}
+.proslsit a:link, .proslsit a:visited {
+	color:#3b3b3b;
+}
+.proslsit a:active, .proslsit a:hover {
+	color:#11a3a3;
+}
+.proslsit li {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	font-size:14px;
+	padding:8px 0px;
+	cursor:default;
+	position:relative;
+}
+.proslsit li.lhede {
+	color:#11a3a3;
+}
+.proslsit li.proact {
+	color:#11a3a3;
+}
+.proslsit .proimg {
+	position:absolute;
+	right:0px;
+	top:34px;
+	border:4px solid #039e9e;
+	background-color:#fff;
+	z-index:100;
+	display:none;
+}
+.proname, .procase, .proChemical, .protype {
+	float:left;
+	display:inline-block;
+	padding-right:16px;
+}
+.proname {
+	width:188px;
+}
+.procase, .proChemical {
+	text-align:center;
+	width:232px;
+}
+.protype {
+	float:right;
+	position:relative;
+	color:#11a3a3;
+}
+.protype .img {
+	position:absolute;
+	right:0px;
+	top:29px;
+	border:4px solid #039e9e;
+	display:none;
+	background-color:#fff;
+	z-index:100;
+}
+.searchlist li {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	padding:10px 0px;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.searchlist li .t {
+	color:#11a3a3;
+}
+.proSpage {
+	display:none;
+}
+.searchlist li a {
+	color: #11a3a3;
+}
+.searchlist li a:hover {
+	color: #000;
+}
+.pDTWO {
+	padding:0px 0px 60px;
+}
+.pDTWO li {
+	float:left;
+	display:inline-block;
+}
+.pDTWO .pd-txt {
+	width:556px;
+	overflow:hidden;
+	font:14px/2.5 Arial, Helvetica, sans-serif;
+	color:#3d3d3d;
+}
+.pDTWO .pd-img {
+	float:right;
+	border:3px solid #d4d4d4;
+	width:400px;
+	height:273px;
+	overflow:hidden;
+}
+.pdlist a:link, .pdlist a:visited {
+	color:#11a3a3;
+}
+.pdlist a:active, .pdlist a:hover {
+	color:#3b3b3b;
+}
+.pdnum, .pdname, .pdgrade, .pdsize, .pdprice {
+	float:left;
+	display:inline-block;
+	padding:0px 16px 0px 0px;
+	text-align:center;
+}
+.pdnum {
+	padding-left:6px;
+	width:214px;
+	text-align:left;
+}
+.pdname {
+	width:182px;
+}
+.pdgrade {
+	width:190px;
+}
+.pdsize {
+	width:206px;
+}
+.pdprice {
+	width:132px;
+	padding:0px;
+	text-align:right;
+}
+.pdlist {
+	margin-bottom:50px;
+}
+.pdlist li {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	padding:4px 0px;
+	color:#484848;
+	font:14px/1.8 Arial, Helvetica, sans-serif;
+}
+.pdlist li .pdnum {
+	color:#11a3a3;
+}
+.pdlist li.lhede {
+	background:none #11a3a3;
+	color:#fff;
+	margin-bottom:25px;
+}
+.pdlist li.lhede .pdnum {
+	color:#fff;
+}
+.backbtn {
+	background-color:#11a3a3;
+	color:#fff;
+	font:14px/30px "microsoft yahei", Arial, Helvetica, sans-serif;
+	height:30px;
+	display:inline-block;
+	padding:0px 22px;
+}
+.backbtn:hover {
+	background-color:#3b3b3b;
+}

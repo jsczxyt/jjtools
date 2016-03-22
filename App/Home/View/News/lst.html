@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>常州市海潜贸易有限公司</title>
+    <meta name="description" content="常州市海潜贸易有限公司">
+    <meta name="keywords" content="常州市海潜贸易有限公司">
+    <LINK href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/style.css" tppabs="http://www.haiq.com/__PUBLIC__/Home/css/style.css">
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.min.js" tppabs="http://www.haiq.com/__PUBLIC__/Home/js/jquery.min.js"></script>
+    <!--[if lte IE 6]>
+    <!--<script type="text/javascript" src="templets/default/style/png.js" tppabs="http://www.haiq.com/templets/default/style/png.js"></script>-->
+    <script type="text/javascript">
+        PNG.fix('.png')
+    </script>
+    <![endif]-->
+</head>
+<body>
+<include file="Public/head"/>
+<div  class="pagebox">
+  <div  class="inner clearfix">
+    <p  class="ibox-t3"><span  class="en">Purification engineering technology research center of Sichuan Province Natural Medicine</span><br>
+      <span  class="zh">织梦58技术研究中心</span></p>
+    <p  class="ptname">新闻资讯</p>
+  </div>
+</div>
+
+<div  class="container clearfix">
+  <?php foreach($newslst as $v){?>
+  
+  <dl  class="newsitem clearfix">
+    <dd  class="time">
+      <p  class="num">18</p>
+      <p  class="year">2014-12</p>
+    </dd>
+    <dd  class="img"><a  target="_blank"  href="<?php echo U('detail',array('id'=>$v['id']))?>" ><img  src="../../uploads/141218/1-14121Q61SW12.jpg"><span  class="png"  style="display: none;"><img  src="../../templets/default/images/nico.gif" class="vm"  width="37"  height="37"  style="margin-top: 0px;"></span></a></dd>
+    <dd  class="con">
+      <p  class="t"><a  target="_blank"  href="<?php echo U('detail',array('id'=>$v['id']))?>" ><?php echo $v['news_title']?></a> </p>
+      <div  class="c"> 4月13日，在这个春光明媚的日子，樱桃红了，草莓也熟了。公司为丰富广大员工的文化生活，组织全体员工到龙泉万亩果园游玩，大家积极参与自助烧烤，体会着大自然 的乐趣，同时品... </div>
+      <a  class="more2 l"  target="_blank"  href="<?php echo U('detail',array('id'=>$v['id']))?>" >[查看详情]</a> </dd>
+  </dl>
+  <?php }?>
+
+  <div  class="paging">
+  <span  class="pageinfo">共 <strong>1</strong>页<strong>3</strong>条记录</span>
+
+     </div>
+  <script  type="text/javascript">
+        //<![CDATA[ 
+        jQuery(function () {
+            jQuery(".newsitem").hover(function () {
+                jQuery(this).find(".img a .png"/*tpa=http://www.haiq.com/a/xinwenzixun/.img a .png*/).stop().fadeIn(300);
+                jQuery(this).find(".img a .png"/*tpa=http://www.haiq.com/a/xinwenzixun/.img a .png*/).children("img").stop().animate({ "margin-top": "-20px" }, 400);
+            }, function () {
+                jQuery(this).find(".img a .png"/*tpa=http://www.haiq.com/a/xinwenzixun/.img a .png*/).fadeOut(100);
+                jQuery(this).find(".img a .png"/*tpa=http://www.haiq.com/a/xinwenzixun/.img a .png*/).children("img").animate({ "margin-top": "0px" }, 200);
+            })
+        });
+        //]]>
+    </script> 
+</div>
+<include file="Public/foot"/>
+
+</body></html>

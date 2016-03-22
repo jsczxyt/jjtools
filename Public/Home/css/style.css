@@ -1,0 +1,1243 @@
+@charset "utf-8";
+/*dede58.com 做最好的织梦模板*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, figure {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+a:link, a:visited {
+	text-decoration:none;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-o-transition:all 0.3s ease-in-out 0s;
+}
+a:active, a:hover {
+	text-decoration:none;
+	cursor:pointer;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-o-transition:all 0.3s ease-in-out 0s;
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+	list-style-image:none;
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+	-ms-interpolation-mode:bicubic;
+	vertical-align:middle;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+html {
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	overflow-x:hidden;
+}
+body {
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	color:#525151;
+	background:#fff;
+}
+.layout:after, .clearfix:after {
+	content:"\0020";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.layout, .clearfix {
+*zoom:1;
+}
+.fc {
+	text-align:center;
+}
+.fr {
+	text-align:right;
+}
+.l {
+	float:left;
+	display:inline-block;
+}
+.r {
+	float:right;
+	display:inline-block;
+}
+.vt {
+	vertical-align:top;
+}
+.vm {
+	vertical-align:middle;
+}
+.i {
+	background-image:url("../images/ico.png")/*tpa=http://www.haiq.com/templets/default/images/ico.png*/;
+	_background-image:url("../images/ico.gif")/*tpa=http://www.haiq.com/templets/default/images/ico.gif*/;
+	background-repeat:no-repeat;
+}
+.inner {
+	width:1000px;
+	margin:0px auto;
+}
+.top {
+	position:relative;
+	padding:10px 0px 0px;
+}
+.logo {
+	position:absolute;
+	left:0px;
+	top:26px;
+}
+.serachbox {
+	float:right;
+	display:inline-block;
+	background:url("../images/serach_bg.png")/*tpa=http://www.haiq.com/templets/default/images/serach_bg.png*/ no-repeat;
+	_background:url("../images/serach_bg.gif")/*tpa=http://www.haiq.com/templets/default/images/serach_bg.gif*/ no-repeat;
+	width:275px;
+	height:25px;
+	padding:0px 0px 0px 14px;
+	margin-right:9px;
+}
+.search-txt, .search-btn {
+	float:left;
+	display:inline-block;
+	margin:0px;
+	height:23px;
+	line-height:23px;
+	padding:1px 0px;
+	border:0px none;
+	color:#1f1f1f;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.search-txt {
+	width:236px;
+	margin:0px 10px 0px 0px;
+	background:none;
+}
+.search-btn {
+	width:28px;
+	background:none;
+}
+.languagebox {
+	height:25px;
+	float:right;
+	display:inline-block;
+}
+.languagebox .i {
+	display:inline-block;
+	width:25px;
+	height:25px;
+	font:12px/25px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	float:left;
+	margin-left:6px;
+}
+.languagebox .i {
+	background-position:-44px -32px;
+}
+.languagebox .i.act {
+	background-position:-44px 0px;
+}
+.nav {
+	padding:40px 0px 0px 0px;
+	height:45px;
+	float:right;
+	display:block;
+}
+.nav a {
+	font:14px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#3b3b3b;
+}
+.nav a:hover, .nav a.act {
+	color:#039e9e;
+}
+.nav li {
+	float:left;
+	display:inline-block;
+	padding:0px 0px 0px 36px;
+}
+.banner {
+	height:410px;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.bannerbox {
+	width:100%;
+	height:410px;
+	position:relative;
+	overflow:hidden;
+}
+.bannerbox .pic {
+	background-position:center top;
+	display:block;
+	width:100%;
+	height:410px;
+	background-repeat:no-repeat;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url("../images/bx_loader.gif")/*tpa=http://www.haiq.com/templets/default/images/bx_loader.gif*/ center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+*zoom: 1;
+*display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #fff;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 10px 0px 0px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #11a3a3;
+}
+.bx-wrapper .bx-prev {
+	left: 11%;
+	background: url("../images/num_bg.png")/*tpa=http://www.haiq.com/templets/default/images/num_bg.png*/ no-repeat 0 bottom;
+}
+.bx-wrapper .bx-next {
+	right: 11%;
+	background: url("../images/num_bg.png")/*tpa=http://www.haiq.com/templets/default/images/num_bg.png*/ no-repeat right bottom;
+}
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 top;
+}
+.bx-wrapper .bx-next:hover {
+	background-position: right top;
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	outline: 0;
+	width: 54px;
+	height: 54px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url("../images/controls.png")/*tpa=http://www.haiq.com/templets/default/images/controls.png*/ -86px -11px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url("../images/controls.png")/*tpa=http://www.haiq.com/templets/default/images/controls.png*/ -86px -44px no-repeat;
+	margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+.footbox {
+	border-top:7px solid #11a3a3;
+	background-color:#373737;
+	padding:25px 0px 35px;
+	color:#868686;
+}
+.footbox a:link, .footbox a:visited {
+	color:#868686;
+}
+.footbox a:active, .footbox a:hover {
+	color:#fff;
+}
+.foot {
+	width:1000px;
+	margin:0px auto;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.finfobox {
+	float:left;
+	display:inline-block;
+	width:360px;
+	font-size:14px;
+}
+.finfobox p {
+	padding:6px 0px;
+}
+.finfobox p.num {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.finfobox .i {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	float:left;
+	margin:0px 8px;
+}
+.finfobox .fi1 {
+	background-position:0px 0px;
+}
+.finfobox .fi2 {
+	background-position:0px -20px;
+}
+.finfobox .fi3 {
+	background-position:0px -40px;
+}
+.frighbox {
+	float:right;
+	display:block;
+}
+.fnav {
+	text-align:right;
+	height:68px;
+	margin-bottom:4px;
+}
+.gobox {
+	width:50px;
+	position:fixed;
+	_position:absolute;
+	right:0px;
+	bottom:10%;
+	text-align:center;
+	line-height:100%;
+	z-index:9999;
+	height:50px;
+	overflow:hidden;
+	display:none;
+}
+.gobox a {
+	background:url("../images/scrolltop.gif")/*tpa=http://www.haiq.com/templets/default/images/scrolltop.gif*/ no-repeat scroll center center #b4b4b4;
+	width:50px;
+	height:50px;
+	display:block;
+}
+.gobox a:hover {
+	background-color:#11a3a3;
+}
+.pagebox {
+	padding:30px 0px 36px;
+	background-color:#11a3a3;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ibox-t3 {
+	text-align:center;
+	color:#d8fafa;
+}
+.ibox-t3 .en {
+	text-transform:uppercase;
+	font:14px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ibox-t3 .zh {
+	font:20px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ptname {
+	padding:36px 0px 0px;
+	font:30px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align:center;
+}
+.pagenav {
+	text-align:center;
+	padding:50px 0px 0px;
+}
+.pagenav a:link, .pagenav a:visited {
+	color:#fff;
+}
+.pagenav a:active, .pagenav a:hover {
+	color:#11a3a3;
+}
+.pagenav li {
+	width:106px;
+	height:31px;
+	display:inline-block;
+	background:url("../images/pnav.png")/*tpa=http://www.haiq.com/templets/default/images/pnav.png*/ no-repeat scroll left bottom;
+	_background:url("../images/pnav.gif")/*tpa=http://www.haiq.com/templets/default/images/pnav.gif*/ no-repeat scroll left bottom;
+	margin:0px 6px;
+}
+.pagenav li a {
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	height:31px;
+	line-height:31px;
+	font-size:14px;
+}
+.pagenav li a:hover, .pagenav li a.act {
+	background:url("../images/pnav.png")/*tpa=http://www.haiq.com/templets/default/images/pnav.png*/ no-repeat scroll left top;
+	_background:url("../images/pnav.gif")/*tpa=http://www.haiq.com/templets/default/images/pnav.gif*/ no-repeat scroll left top;
+	color:#11a3a3;
+}
+.container {
+	padding:70px 0px 140px;
+	width:1000px;
+	margin:0px auto;
+}
+.page {
+	color:#3b3b3b;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	line-height:1.8;
+}
+.page a:link, .page a:visited {
+	color:#11a3a3;
+}
+.page a:active, .page a:hover {
+	color:#3b3b3b;
+}
+.bannerbox .bx-wrapper .bx-pager {
+	padding:0px;
+	height:16px;
+	position:absolute;
+	left:0px;
+	width:100%;
+	bottom:14px;
+	text-align:center;
+}
+.bannerbox .bx-wrapper .bx-pager.bx-default-pager a {
+	overflow:hidden;
+	text-indent:10em;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	border-radius: 16px;
+}
+.bannerbox .bx-wrapper .bx-next, .bannerbox .bx-wrapper .bx-prev {
+	background:url("../images/banner_lr.png")/*tpa=http://www.haiq.com/templets/default/images/banner_lr.png*/ no-repeat;
+	width:48px;
+	height:48px;
+	overflow:hidden;
+	margin-top:-24px;
+	top:50%;
+}
+.bannerbox .bx-wrapper .bx-prev {
+	background-position:0px 0px;
+	left:-48px;
+	background-color:rgba(0, 0, 0);
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.bannerbox .bx-wrapper .bx-next {
+	background-position:-48px 0px;
+	right:-48px;
+	background-color:rgba(0, 0, 0);
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.bannerbox .bx-wrapper .bx-prev:hover, .bannerbox .bx-wrapper .bx-next:hover {
+	background-color:rgba(209, 0, 0);
+	background-color:rgba(17, 163, 163, 0.5);
+}
+.ibox {
+	margin:45px auto 0px;
+	width:1000px;
+}
+.iimg {
+	width:500px;
+	height:313px;
+	overflow:hidden;
+	float:left;
+	display:inline-block;
+}
+.icbox {
+	float:left;
+	display:inline-block;
+	width:436px;
+	height:313px;
+	color:#fff;
+	background:url("../images/bico.gif")/*tpa=http://www.haiq.com/templets/default/images/bico.gif*/ repeat #11a3a3;
+	padding:0px 32px;
+	position:relative;
+	font-family:"microsoft yahei";
+}
+.ibox-t {
+	text-align:center;
+	padding:18px 0px;
+}
+.ibox-t .zh {
+	font:18px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.ibox-t .en {
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+.ibox-c {
+	height:134px;
+	overflow:hidden;
+	margin:0px 0px 28px 0px;
+}
+.more {
+	border:1px solid #028181;
+	font:12px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+	height:26px;
+	line-height:26px;
+	display:inline-block;
+	padding:0px 16px;
+}
+.more:hover {
+	background-color:#028181;
+}
+.icbox .lico {
+	background-position:-72px 0px;
+	width:20px;
+	height:23px;
+	position:absolute;
+	left:-20px;
+	top:50%;
+	margin-top:-11px;
+}
+.icbox .rico {
+	background-position:-72px -33px;
+	width:20px;
+	height:23px;
+	position:absolute;
+	right:-20px;
+	top:50%;
+	margin-top:-11px;
+}
+.bgf4 {
+	background-color:#f4f4f4;
+}
+.newsbox {
+	margin:45px 0px 0px;
+	padding-bottom:20px;
+}
+.newsbox a:link, .newsbox a:visited {
+	color:#3b3b3b;
+}
+.newsbox a:active, .newsbox a:hover {
+	color:#11a3a3;
+}
+.newsbox .ibox {
+	margin:0px auto;
+}
+.ibox-t2 {
+	padding:36px 0px;
+	text-align:center;
+	font-family:"microsoft yahei";
+}
+.ibox-t2 .zh {
+	font-size:18px;
+	color:#11a3a3;
+}
+.ibox-t2 .en {
+	font-size:16px;
+	color:#6b6b6b;
+	padding-left:12px;
+	text-transform:uppercase;
+}
+.new-lbox ul {
+	width:1040px;
+}
+.new-lbox li {
+	width:480px;
+	margin:0px 40px 18px 0px;
+	height:90px;
+	overflow:hidden;
+	float:left;
+	display:block;
+	cursor:default;
+}
+.new-lbox .timebox {
+	background-color:#c6c6c6;
+	color:#fff;
+	width:90px;
+	height:90px;
+	text-align:center;
+	float:left;
+	display:inline-block;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-o-transition:all 0.3s ease-in-out 0s;
+}
+.timebox b {
+	display:block;
+	font:40px/1.4 Arial, Helvetica, sans-serif;
+}
+.timebox span {
+	font:14px/1.4 Arial, Helvetica, sans-serif;
+}
+.new-lbox .con {
+	width:370px;
+	float:right;
+	display:inline-block;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.new-lbox .con .t {
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	margin-bottom:8px;
+}
+.new-lbox .con .t a {
+	color:#3b3b3b;
+}
+.new-lbox li.act .timebox {
+	background-color:#11a3a3;
+}
+.new-lbox li.act .con .t a {
+	color:#11a3a3;
+}
+.servicebox {
+	padding:0px 0px 58px 0px;
+}
+.service-lbox li {
+	float:left;
+	display:inline-block;
+	width:250px;
+	text-align:center;
+}
+.service-lbox .iss {
+	background:url("../images/img_ico.png")/*tpa=http://www.haiq.com/templets/default/images/img_ico.png*/;
+	width:84px;
+	height:76px;
+	margin:0px auto 7px;
+	display:block;
+}
+.service-lbox .ico1 {
+	background-position:0px 0px;
+}
+.service-lbox .ico2 {
+	background-position:0px -76px;
+}
+.service-lbox .ico3 {
+	background-position:0px -152px;
+}
+.service-lbox .ico4 {
+	background-position:0px -228px;
+}
+.service-lbox .txt {
+	text-align:center;
+	font:14px/1.2 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#3b3b3b;
+}
+.servicebox a:link, .servicebox a:visited {
+	color:#3b3b3b;
+}
+.servicebox a:active, .servicebox a:hover {
+	color:#11a3a3;
+}
+.service-lbox a:hover .iss {
+	background-image:url("../images/img_ico2.png")/*tpa=http://www.haiq.com/templets/default/images/img_ico2.png*/;
+}
+.engineeringbox {
+	margin-bottom:45px;
+}
+.iboxlist {
+	width:1000px;
+	margin:0px auto;
+	padding:30px 0px 50px;
+}
+.aboutibox {
+	float:left;
+	display:block;
+	padding-right:40px;
+	width:280px;
+	background:url("../images/ibox1.gif")/*tpa=http://www.haiq.com/templets/default/images/ibox1.gif*/ no-repeat scroll right top;
+	height:365px;
+}
+.iboxlist .it {
+	font:18px/1.4 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#484848;
+	text-align:center;
+}
+.iboxlist .iimg {
+	width:280px;
+	height:110px;
+	overflow:hidden;
+	margin:26px 0px 20px;
+	float:none;
+}
+.iboxlist .iicon {
+	height:112px;
+	color:#484848;
+	font:12px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+.iboxlist .imore {
+	display:block;
+	margin:0px auto;
+	padding:4px 0px;
+	width:100px;
+	text-align:center;
+	background-color:#bcbcbc;
+	font:12px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.iboxlist .imore span {
+	background:url("../images/imore.gif")/*tpa=http://www.haiq.com/templets/default/images/imore.gif*/ no-repeat scroll right center;
+	padding-right:15px;
+}
+.iboxlist .imore:hover {
+	background-color:#11a3a3;
+}
+.engineeringibox {
+	float:right;
+	display:block;
+	padding-left:40px;
+	width:280px;
+	background:url("../images/ibox1.gif")/*tpa=http://www.haiq.com/templets/default/images/ibox1.gif*/ no-repeat scroll left top;
+	height:365px;
+}
+.newibox {
+	width:280px;
+	float:left;
+	display:inline-block;
+	margin-left:40px;
+}
+.ilist {
+	height:112px;
+	overflow:hidden;
+	margin-bottom:25px;
+}
+.ilist li {
+	height:27px;
+	border-bottom:1px solid #eaeaea;
+	overflow:hidden;
+	padding:0px 0px 0px 16px;
+	background:url("../images/iico1.gif")/*tpa=http://www.haiq.com/templets/default/images/iico1.gif*/ no-repeat scroll left center;
+	font:12px/27px "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.ilist a:link, .ilist a:visited {
+	color:#484848;
+}
+.ilist a:active, .ilist a:hover {
+	color:#11a3a3;
+}
+.platform-dl {
+	width:1000px;
+	margin:0px auto;
+	padding-bottom:36px;
+	margin-bottom:36px;
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.platform-dl .img {
+	float:left;
+	display:inline-block;
+	padding:25px 0px 0px 25px;
+	width:84px;
+	height:76px;
+	margin:0px auto 7px;
+}
+.platform-dl .img .png {
+	background:url("../images/img_ico2.png")/*tpa=http://www.haiq.com/templets/default/images/img_ico2.png*/;
+	width:84px;
+	height:76px;
+	display:block;
+}
+.platform-dl .img .ico1 {
+	background-position:0px 0px;
+}
+.platform-dl .img .ico2 {
+	background-position:0px -76px;
+}
+.platform-dl .img .ico3 {
+	background-position:0px -152px;
+}
+.platform-dl .img .ico4 {
+	background-position:0px -228px;
+}
+.platform-dl .con {
+	width:840px;
+	float:right;
+	display:inline-block;
+	margin-right:35px;
+}
+.platform-dl .con .t {
+	margin-bottom:20px;
+	font-size:14px;
+	color:#039e9e;
+}
+.platform-dl .con .c {
+	color:#3b3b3b;
+	text-indent:2em;
+	width:100%;
+	overflow:hidden;
+}
+.honorlist ul {
+	width:1038px;
+}
+.honorlist li {
+	float:left;
+	display:inline-block;
+	padding:0px 36px 36px 0px;
+}
+.honorlist li a.pimg {
+	display:block;
+	border:15px solid #dfdfdf;
+}
+.honorlist li a.pimg:hover {
+	border:15px solid #11a3a3;
+}
+.honorlist li a.pimg:hoer {
+border:15px solid #11a3a3;
+}
+.honorlist li a.pimg img {
+	width:280px;
+	height:179px;
+}
+.paging {
+	text-align:center;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	padding-top:20px;
+}
+.paging span, .paging a {
+	padding:4px 8px;
+	border:1px solid #dddddd;
+	margin:0px 4px;
+	color:#747474;
+}
+.paging a:hover {
+	color:#11a3a3;
+}
+.paging span {
+	border:1px solid #0ccdcd;
+	background-color:#11a3a3;
+	color:#fff;
+}
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img {
+	border: none;
+}
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image {
+	padding: 10px;
+}
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+	left: 0;
+}
+#lightbox-nav a {
+	outline: none;
+}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev {
+	left: 0;
+	float: left;
+}
+#lightbox-nav-btnNext {
+	right: 0;
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 12px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	color: #2f2f2f;
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 100%;
+	float: left;
+	text-align: left;
+	background:#ebebeb;
+	padding:6px 0px;
+}
+#lightbox-image-details-caption {
+	margin:0px 6px;
+	display:block;
+}
+#lightbox-image-details-currentNumber {
+	display: none;
+	clear: left;
+	padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+	width: 66px;
+	float: right;
+	padding-bottom: 0.7em;
+}
+.newsitem a:link, .newsitem a:visited {
+	color:#3b3b3b;
+}
+.newsitem a:active, .newsitem a:hover {
+	color:#11a3a3;
+}
+.newsitem {
+	padding:0px 0px 40px;
+	margin:0px auto 40px;
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	width:1000px;
+	cursor:default;
+}
+.newsitem dd {
+	float:left;
+	display:inline-block;
+}
+.newsitem .time {
+	width:111px;
+	height:111px;
+	overflow:hidden;
+	background:url("../images/n_tiem.gif")/*tpa=http://www.haiq.com/templets/default/images/n_tiem.gif*/ no-repeat #eee;
+	text-align:center;
+}
+.newsitem .time .num {
+	color:#11a3a3;
+	font:48px/70px Arial, Helvetica, sans-serif;
+}
+.newsitem .time .year {
+	color:#a0a0a0;
+	font-size:14px;
+}
+.newsitem .img {
+	width:157px;
+	margin-left:40px;
+	height:111px;
+}
+.newsitem .img img {
+	width:100%;
+	height:100%;
+	vertical-align:top;
+}
+.newsitem .img a {
+	position:relative;
+	display:block;
+	width:157px;
+	height:111px;
+	overflow:hidden;
+}
+.newsitem .img a .png {
+	background:url("../images/black_png.png")/*tpa=http://www.haiq.com/templets/default/images/black_png.png*/ repeat;
+	width:100%;
+	height:111px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+.newsitem .img a .png img {
+	width:37px;
+	height:37px;
+	position:absolute;
+	left:58px;
+	top:55px;
+}
+.newsitem .con {
+	width:650px;
+	float:right;
+}
+.newsitem .con .t {
+	font:14px/1.2 "microsoft yahei", Arial, Helvetica, sans-serif;
+	height:20px;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+.newsitem .con .c {
+	color:#6d6d6d;
+	height:32px;
+	margin-bottom:15px;
+	overflow:hidden;
+	line-height:1.4;
+}
+.infopaget {
+	text-align:center;
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	padding-bottom:10px;
+	margin-bottom:32px;
+	text-align:center;
+}
+.infopaget .t {
+	font:18px/1.4 "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#3b3b3b;
+	padding:0px 0px 22px 0px;
+}
+.infopaget .info {
+	color:#808080;
+}
+.nppage {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x;
+	padding-top:10px;
+	margin-top:42px;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.nppage a:link, .nppage a:visited {
+	color:#3b3b3b;
+}
+.nppage a:active, .nppage a:hover {
+	color:#11a3a3;
+}
+.jointbl {
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	margin-bottom:30px;
+}
+.jbox {
+	height:30px;
+	line-height:30px;
+	width:100%;
+	overflow:hidden;
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x left bottom;
+	color:#3b3b3b;
+	cursor:pointer;
+}
+.jbox div, .jbox em, .jbox span {
+	float:left;
+	display:inline-block;
+	font:12px/30px "microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.jbox div {
+	width:290px;
+	padding:0px 18px;
+	background:url("../images/ik1.gif")/*tpa=http://www.haiq.com/templets/default/images/ik1.gif*/ no-repeat scroll left center;
+}
+.jbox em {
+	width:84px;
+	text-align:center;
+	font-style:inherit;
+}
+.jbox span {
+	float:right;
+}
+.jcon {
+	padding:15px 0px;
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	color:#777;
+	line-height:1.8;
+	display:none;
+}
+.jbox .jact div {
+	background-image:url("../images/ik2.gif")/*tpa=http://www.haiq.com/templets/default/images/ik2.gif*/;
+}
+.conpage {
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+	line-height:1.6;
+	position:relative;
+}
+.conpage a:link, .conpage a:visited {
+	color:#11a3a3;
+}
+.conpage a:active, .conpage a:hover {
+	color:#3b3b3b;
+}
+.cblue {
+	color:#11a3a3;
+}
+.f14 {
+	font-size:14px;
+}
+.conpage .cbg {
+	float:left;
+	display:block;
+	padding:24px 32px;
+	width:296px;
+	background-color:#f2f2f2;
+	min-height:348px;
+}
+.mapbg {
+	background:url("../images/mapbg.png")/*tpa=http://www.haiq.com/templets/default/images/mapbg.png*/ no-repeat;
+	width:586px;
+	height:422px;
+	overflow:hidden;
+	position:absolute;
+	right:0px;
+	top:-20px;
+	padding:20px 0px 0px 60px;
+}
+.mapbox {
+	width:526px;
+	height:396px;
+}
+.searchlist a:link, .searchlist a:visited {
+	color:#11a3a3;
+}
+.searchlist a:active, .searchlist a:hover {
+	color:#3b3b3b;
+}
+.searchlist {
+	padding-bottom:30px;
+}
+.searchlist li {
+	background:url("../images/bot1.gif")/*tpa=http://www.haiq.com/templets/default/images/bot1.gif*/ repeat-x scroll left bottom;
+	padding:22px 0px;
+	font-family:"microsoft yahei", Arial, Helvetica, sans-serif;
+}
+.searchlist li .t {
+	padding-bottom:5px;
+	color:#11a3a3;
+}
+.coursedl {
+	background:url("../images/cbg.gif")/*tpa=http://www.haiq.com/templets/default/images/cbg.gif*/ repeat-y scroll 134px center;
+	width:1000px;
+	margin:0px auto;
+	padding-bottom:20px;
+}
+.coursedl .ci {
+	padding-left:118px;
+	height:78px;
+}
+.yearbox {
+	width:107px;
+	padding:0px 45px 0px 0px;
+	text-align:right;
+	margin-bottom:28px;
+	background:url("../images/cico2.gif")/*tpa=http://www.haiq.com/templets/default/images/cico2.gif*/ no-repeat scroll 113px 4px;
+	cursor:pointer;
+}
+.yearbox span {
+	display:inline-block;
+	background-color:#11a3a3;
+	color:#fff;
+	font:16px/1.8 "microsoft yahei", Arial, Helvetica, sans-serif;
+	padding:0px 6px;
+}
+.yearboxact {
+	background:url("../images/cico3.gif")/*tpa=http://www.haiq.com/templets/default/images/cico3.gif*/ no-repeat scroll 113px 4px;
+}
+.mothbox {
+	width:100%;
+	font:14px/1.5 "microsoft yahei", Arial, Helvetica, sans-serif;
+	background:url("../images/cico1.gif")/*tpa=http://www.haiq.com/templets/default/images/cico1.gif*/ no-repeat scroll 113px 5px;
+	padding:0px 0px 40px 0px;
+}
+.mothbox span.t {
+	float:left;
+	display:inline-block;
+	width:100px;
+	text-align:right;
+	color:#11a3a3;
+}
+.mothbox .c {
+	float:right;
+	display:block;
+	width:827px;
+}
+.pt20 {
+	padding-top:20px;
+}
+.btnmore {
+	background:url("../images/btnMore.gif")/*tpa=http://www.haiq.com/templets/default/images/btnMore.gif*/ no-repeat;
+	width:81px;
+	height:26px;
+	text-align:center;
+	line-height:26px;
+	color:#fff;
+	display:inline-block;
+	margin-left:95px;
+}
+.btnmore:hover {
+	background:url("../images/btnMore2.gif")/*tpa=http://www.haiq.com/templets/default/images/btnMore2.gif*/ no-repeat;
+}
