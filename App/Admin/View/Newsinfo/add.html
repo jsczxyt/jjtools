@@ -11,11 +11,9 @@
 
 <script type="text/javascript">
     $(function(){
-
-
         //替换关键字中的逗号为英文符
         $("form").submit(function(e){
-            $('input[name=goods_key]').val($('input[name=goods_key]').val().replace(/\，/g,","));
+            $('input[name=news_key]').val($('input[name=news_key]').val().replace(/\，/g,","));
         })
     })
 </script>
@@ -69,7 +67,10 @@
                 <td class="label">作者：</td>
                 <td><input type="text" name="news_author"style="float:left;" size="30" /></td>
             </tr>
-
+            <tr>
+                <td class="label">内容摘要:</td>
+                <td><textarea name="news_desc" id="" cols="60" rows="10"></textarea></td>
+            </tr>
         </table>
           <hr/>
           <div style="width: 90%;overflow: hidden">

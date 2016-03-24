@@ -165,7 +165,7 @@ class Route {
     // '路由规则'=>array('外部地址','重定向代码')
     // 路由规则中 :开头 表示动态变量
     // 外部地址中可以用动态变量 采用 :1 :2 的方式
-    // 'news/:month/:day/:id'=>array('News/read?cate=1','status=1'),
+    // 'news/:month/:day/:id'=>array('Newsinfo/read?cate=1','status=1'),
     // 'new/:id'=>array('/new.php?id=:1',301), 重定向
     private static function parseRule($rule,$route,$regx) {
         // 获取路由地址规则
@@ -241,7 +241,7 @@ class Route {
     // '路由正则'=>'外部地址'
     // '路由正则'=>array('外部地址','重定向代码')
     // 参数值和外部地址中可以用动态变量 采用 :1 :2 的方式
-    // '/new\/(\d+)\/(\d+)/'=>array('News/read?id=:1&page=:2&cate=1','status=1'),
+    // '/new\/(\d+)\/(\d+)/'=>array('Newsinfo/read?id=:1&page=:2&cate=1','status=1'),
     // '/new\/(\d+)/'=>array('/new.php?id=:1&page=:2&status=1','301'), 重定向
     private static function parseRegex($matches,$route,$regx) {
         // 获取路由地址规则

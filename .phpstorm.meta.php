@@ -13,6 +13,7 @@
 			'Relation' instanceof Think\Model\RelationModel,
 			'Goods' instanceof Admin\Model\GoodsModel,
 			'Merge' instanceof Think\Model\MergeModel,
+			'Newsinfo' instanceof Admin\Model\NewsinfoModel,
 		],
 	];
 }

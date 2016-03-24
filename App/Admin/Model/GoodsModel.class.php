@@ -4,7 +4,6 @@ use Think\Model;
 class GoodsModel extends Model{
     protected function _before_insert(&$data,$options){
         //图片及缩略图上传模块
-
         $res=$this->uploadImage('goods_img','Goods');
         if($res['info']==1){
            $data['goods_ori']=$res['img'][0];
