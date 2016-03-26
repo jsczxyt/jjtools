@@ -8,6 +8,7 @@
 			'News' instanceof Home\Model\NewsModel,
 			'Adv' instanceof Think\Model\AdvModel,
 			'Mongo' instanceof Think\Model\MongoModel,
+			'Type' instanceof Admin\Model\TypeModel,
 			'View' instanceof Think\Model\ViewModel,
 			'Cate' instanceof Admin\Model\CateModel,
 			'Relation' instanceof Think\Model\RelationModel,

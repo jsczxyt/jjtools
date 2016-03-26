@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>ECSHOP Menu</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css"/>
+    <link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css"/>
     <style type="text/css">
         body {
             background: #80BDCB;
@@ -91,17 +91,17 @@
         }
 
         .explode {
-            background: url(__PUBLIC__/Admin/images/menu_minus.gif) no-repeat 0px 3px;
+            background: url(/Public/Admin/images/menu_minus.gif) no-repeat 0px 3px;
             font-weight: bold;
         }
 
         .collapse {
-            background: url(__PUBLIC__/Admin/images/menu_plus.gif) no-repeat 0px 3px;
+            background: url(/Public/Admin/images/menu_plus.gif) no-repeat 0px 3px;
             font-weight: bold;
         }
 
         .menu-item {
-            background: url(__PUBLIC__/Admin/images/menu_arrow.gif) no-repeat 0px 3px;
+            background: url(/Public/Admin/images/menu_arrow.gif) no-repeat 0px 3px;
             font-weight: normal;
         }
 
@@ -130,7 +130,7 @@
 <body>
 <div id="tabbar-div">
     <p><span style="float:right; padding: 3px 5px;"><a href="#"><img id="toggleImg"
-                                                                     src="__PUBLIC__/Admin/images/menu_minus.gif"
+                                                                     src="/Public/Admin/images/menu_minus.gif"
                                                                      width="9" height="9" border="0"
                                                                      alt="闭合"/></a></span>
 

@@ -16,3 +16,243 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
 ERR: 无法加载模块:Public
 
+[ 2016-03-25T20:29:16+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/image/20145271140513654.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/images/imore.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/image/20145271140238814.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/images/iico1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/images/ibox1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/image/20145271139503826.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/image/20145281553571732.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /Public/Home/images/ico.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:17+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-25T20:29:21+08:00 ] 127.0.0.1 /dede
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Dede
+
+[ 2016-03-25T20:29:35+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:38+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:47+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:29:52+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:31:13+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:32:30+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:33:47+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:01+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:08+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:16+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:33+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:37+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:34:39+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:44:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-25T20:45:26+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T20:45:50+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T21:22:29+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T21:23:14+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:34:56+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-25T23:35:03+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:36:30+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:36:36+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:37:22+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:38:00+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:38:08+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:38:41+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:38:55+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:39:24+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-25T23:39:49+08:00 ] 127.0.0.1 /Public/Admin//jquery-1.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
