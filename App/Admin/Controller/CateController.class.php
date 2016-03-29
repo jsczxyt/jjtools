@@ -29,12 +29,27 @@ class CateController extends Controller{
         $this->display();
     }
     public function edit(){
-        $id=$_GET['id'];
         $catemodel=D('Cate');
+        if(IS_POST){
+            $id=I('post.id');
+            if($catemodel->create()){
+                if($catemodel->save($id)){
+                    $this->success('修改成功',U('lst'));
+                    exit;
+                }else{
+                    $this->error('修改失败');
+                }
+            }else{
+                $this->error($catemodel->getError());
+            }
+        }
+        $id=$_GET['id'];
         $catedata=$catemodel->getCateTree();
         $info=$catemodel->where("id=$id")->find();
+        $child=$catemodel->getChild($id);           //获取当前栏目的子栏目
+        $child[]=$id;
+        $this->assign('child',$child);
         $this->assign('catedata',$catedata);
-        $this->assign('ids',$id);
         $this->assign('info',$info);
         $this->display();
     }

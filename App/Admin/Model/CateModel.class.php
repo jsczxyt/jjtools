@@ -20,4 +20,19 @@ class CateModel extends Model{
         }
         return $list;
     }
+    //获取当前栏目的子孙栏目
+    public function getChild($id){
+        $arr=$this->select();
+        return $this->__getChild($arr,$id);
+    }
+    public  function __getChild($arr,$id){
+        static $lst=array();
+        foreach($arr as $v){
+            if($v['parent_id']==$id){
+                $lst[]=$v['id'];
+                $this->getChild($arr,$v['id']);
+            }
+        }
+        return $lst;
+    }
 }

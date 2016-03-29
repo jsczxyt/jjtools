@@ -55,16 +55,25 @@
       <span><a href="#" ></a><?php echo $v['attr_name']?></span>
     </td>
     <td width="10%"><?php echo $v['type_name']?></td>
-    <td><?php echo $v['attr_type']?></td>
-    <td><?php echo $v['attr_input_type']?></td>
+    <td><?php echo $v['attr_type']==0?'唯一':'单选'?></td>
+    <td><?php echo $v['attr_input_type']==0?'手工输入':'列表选择'?></td>
     <td><?php echo $v['attr_value']?></td>
     <td width="24%" align="center"> <a href="<?php echo U('edit',array('id'=>$v['id']))?>">编辑</a>|
       <a href="<?php echo U('del',array('id'=>$v['id']))?>" onclick="if(confirm('确定要删除吗？')==false)return false;" title="移除">移除</a>
     </td>
   </tr>
+
   <?php }?>
+  <tr>
+    <td  colspan="6" align="right" nowrap="true">
+      <div style="margin-right: 50px"><?php echo $show?></div>
+    </td>
+  </tr>
   </table>
+
+
 </div>
+
 </form>
 
 <div id="footer">

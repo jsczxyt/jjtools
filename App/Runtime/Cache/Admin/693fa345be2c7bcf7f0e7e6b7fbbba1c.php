@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>ECSHOP 管理中心 - 修改分类 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 </h1>
 
 <div class="main-div">
-  <form action="__ACTION__" method="post" name="theForm" enctype="multipart/form-data">
+  <form action="/index.php/Admin/Cate/edit" method="post" name="theForm" enctype="multipart/form-data">
   <table width="100%" id="general-table">
       <tr>
         <td class="label">分类名称:</td>
@@ -29,17 +29,8 @@
         <td>
           <select name="parent_id">
                         <option value="0">顶级分类</option>
-                        <?php foreach($catedata as $v){
-                        if(in_array($v['id'],$child)){
-                        continue;
-                        }
-                        if($v['id']==$info['parent_id']){
-                            $sel='selected=selected';
-                        }else{
-                            $sel='';
-                        }
-                        ?>
-              <option <?php echo $sel;?> value="<?php echo $v['id']?>"><?php echo str_repeat('--',$v['deep']);?><?php echo $v['cate_name'];?></option>
+                        <?php foreach($catedata as $v){ if(in_array($v['id'],$child)){ continue; } if($v['id']==$info['parent_id']){ $sel='selected=selected'; }else{ $sel=''; } ?>
+              <option <?php echo $sel;?> value="<?php echo $v['id']?>"><?php echo str_repeat('--',$v['deep']); echo $v['cate_name'];?></option>
                         <?php }?>
                       </select>
         </td>
