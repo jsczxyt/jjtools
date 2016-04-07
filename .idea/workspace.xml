@@ -2,15 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55432433-8273-4ffc-918d-0af5a2cc89da" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/044c98ee4e750084d857998c871e90b2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/0f5926f19c5ffd149f8fb0c21f03fc55.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/195699e4ad96f22988ff0dac6f578a5b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/22749fa3fef59aa62c04499f313ef778.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/2f883d0e440a3230615751268138eb47.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/514d80df8e3197d914c8ad7ba192e842.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/652bb3e622b1b36686ebbd3677103862.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/693fa345be2c7bcf7f0e7e6b7fbbba1c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/696fe9fcacb27ed6bfc82d79d63f5c2d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/6a50c6d503dcfec33a87262cae7a0f6e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/848eafa77f8e08e4cf38ecc1dd2f912f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/ab12da4c027dc360bfb2e693ecb087ed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/d6258a2ecef1d0dd9bffd51bfc2fef17.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/f80449833305907ec0e94cb90591af7d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/sktools.sk_attr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/sktools.sk_cate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/sktools.sk_newsdetail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/sktools.sk_newsinfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Data/_fields/sktools.sk_type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_25.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_26.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_27.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_29.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Common/16_03_25.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Common/16_03_26.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Common/16_03_27.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Common/16_03_28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Common/16_03_29.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Home/16_03_25.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Home/16_03_27.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Home/16_03_28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/1456643510764631.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/1456643805868166.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/56d29ee39747c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/56d2b8775e516.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/56d2b9ede57b2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/thumb_56d29ee39747c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/thumb_56d2b8775e516.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-28/thumb_56d2b9ede57b2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456730493139732.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456730493851512.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456730494113474.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456730494240978.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456730825108728.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456731251103461.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456731310749226.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/1456734590135795.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/56d4026dea10f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Uploads/Goods/2016-02-29/thumb_56d4026dea10f.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.phpstorm.meta.php" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php" afterPath="$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Controller/CateController.class.php" afterPath="$PROJECT_DIR$/App/Admin/Controller/CateController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Model/CateModel.class.php" afterPath="$PROJECT_DIR$/App/Admin/Model/CateModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Attr/lst.html" afterPath="$PROJECT_DIR$/App/Admin/View/Attr/lst.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Cate/edit.html" afterPath="$PROJECT_DIR$/App/Admin/View/Cate/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Cache/Admin/d6258a2ecef1d0dd9bffd51bfc2fef17.php" afterPath="$PROJECT_DIR$/App/Runtime/Cache/Admin/d6258a2ecef1d0dd9bffd51bfc2fef17.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_27.log" afterPath="$PROJECT_DIR$/App/Runtime/Logs/Admin/16_03_27.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Admin/View/Goods/add.html" afterPath="$PROJECT_DIR$/App/Admin/View/Goods/add.html" />
     </list>
     <ignored path="jjtools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,54 +88,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TypeController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/Controller/TypeController.class.php">
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lst.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/lst.html">
+      <file leaf-file-name="GoodsController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttrController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="400">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CateController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Admin/Controller/CateController.class.php">
+      <file leaf-file-name="GoodsModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Cate/edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -95,53 +121,28 @@
       <file leaf-file-name="CateModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Admin/Model/CateModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="850">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lst.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/lst.html">
+      <file leaf-file-name="Model.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/left.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
-              <caret line="147" column="73" selection-start-line="147" selection-start-column="73" selection-end-line="147" selection-end-column="73" />
+            <state relative-caret-position="275">
+              <caret line="333" column="23" selection-start-line="333" selection-start-column="23" selection-end-line="333" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/add.html">
+      <file leaf-file-name="AttrModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Admin/Model/AttrModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+            <state relative-caret-position="225">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -172,7 +173,6 @@
         <option value="$PROJECT_DIR$/App/Admin/View/Index/top.html" />
         <option value="$PROJECT_DIR$/App/Admin/View/Cate/add.html" />
         <option value="$PROJECT_DIR$/App/Admin/Conf/config.php" />
-        <option value="$PROJECT_DIR$/App/Admin/View/Goods/add.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/75486f01-cc30-42ae-a6a7-d5e05f7c8e47/console.sql" />
         <option value="$PROJECT_DIR$/App/Admin/View/Goods/lst.html" />
         <option value="$PROJECT_DIR$/Public/Admin/css/main.css" />
@@ -189,12 +189,10 @@
         <option value="$PROJECT_DIR$/App/Home/View/News/lst.html" />
         <option value="$PROJECT_DIR$/App/Home/Controller/NewsController.class.php" />
         <option value="$PROJECT_DIR$/App/Home/View/News/detail.html" />
-        <option value="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/App/Admin/View/News/lst.html" />
         <option value="$PROJECT_DIR$/App/Admin/Model/NewsModel.class.php" />
         <option value="$PROJECT_DIR$/App/Admin/Controller/NewsController.class.php" />
         <option value="$PROJECT_DIR$/App/Admin/Model/NewsinfoModel.class.php" />
-        <option value="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" />
         <option value="$PROJECT_DIR$/App/Home/View/Public/head.html" />
         <option value="$PROJECT_DIR$/App/Admin/View/Newsinfo/add.html" />
         <option value="$PROJECT_DIR$/App/Admin/View/Newsinfo/edit.html" />
@@ -210,9 +208,12 @@
         <option value="$PROJECT_DIR$/App/Admin/View/Attr/add.html" />
         <option value="$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php" />
         <option value="$PROJECT_DIR$/App/Admin/View/Attr/lst.html" />
-        <option value="$PROJECT_DIR$/App/Admin/Model/CateModel.class.php" />
         <option value="$PROJECT_DIR$/App/Admin/View/Cate/edit.html" />
         <option value="$PROJECT_DIR$/App/Admin/Controller/CateController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Model/CateModel.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/App/Admin/View/Goods/add.html" />
+        <option value="$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php" />
       </list>
     </option>
   </component>
@@ -227,7 +228,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1932" />
+    <option name="width" value="1924" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -376,6 +377,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jjtools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jjtools" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Goods" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,12 +629,15 @@
       <workItem from="1458908068304" duration="8073000" />
       <workItem from="1458968379144" duration="16174000" />
       <workItem from="1459171218348" duration="5903000" />
-      <workItem from="1459235375065" duration="3712000" />
+      <workItem from="1459235375065" duration="3874000" />
+      <workItem from="1459607068298" duration="610000" />
+      <workItem from="1459875086793" duration="6591000" />
+      <workItem from="1459958571395" duration="3462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51136000" />
+    <option name="totallyTimeSpent" value="61961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,10 +649,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18429486" sideWeight="0.4955357" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19045064" sideWeight="0.4955357" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -661,14 +691,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/add.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/standardSchemas/xhtml1-transitional.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="133" column="2" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Admin/css/general.css" />
     <entry file="file://$PROJECT_DIR$/Public/Admin/css/main.css" />
     <entry file="file://$PROJECT_DIR$/Public/Home/js/jquery.js" />
@@ -686,7 +708,6 @@
     <entry file="file://$PROJECT_DIR$/App/Home/Controller/NewsController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Home/index.html" />
     <entry file="file://$PROJECT_DIR$/App/Runtime/Cache/Home/38f892f41c881145e695b1d1ec86bee9.php" />
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php" />
     <entry file="file://$PROJECT_DIR$/App/Home/View/News/detail.html" />
     <entry file="file://$USER_HOME$/Desktop/删除的文件/sever/jjtools/ThinkPHP/ThinkPHP.php" />
     <entry file="file://$PROJECT_DIR$/nbproject/project.xml">
@@ -711,28 +732,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/78df60fb/8f29691d-ce21-4aeb-b884-1508ed5295fb/sktools.sk_news">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -751,14 +758,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/78df60fb/8f29691d-ce21-4aeb-b884-1508ed5295fb/sktools.sk_goods">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -773,13 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/NewsinfoController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -815,6 +815,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Newsinfo/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="147" column="73" selection-start-line="147" selection-start-column="73" selection-end-line="147" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Cate/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/CateController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/NewsinfoController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/TypeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="333" column="23" selection-start-line="333" selection-start-column="23" selection-end-line="333" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -823,101 +914,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Newsinfo/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="13" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Index/left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
-          <caret line="147" column="73" selection-start-line="147" selection-start-column="73" selection-end-line="147" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/TypeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Type/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Attr/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/AttrController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Admin/Model/CateModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="850">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/View/Cate/edit.html">
+    <entry file="file://$PROJECT_DIR$/App/Admin/View/Goods/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="102" column="44" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/CateController.class.php">
+    <entry file="file://$PROJECT_DIR$/App/Admin/Model/GoodsModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        <state relative-caret-position="525">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

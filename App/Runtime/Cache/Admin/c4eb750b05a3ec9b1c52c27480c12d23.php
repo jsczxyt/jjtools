@@ -1,13 +1,13 @@
-<!-- $Id: goods_info.htm 17126 2010-04-23 10:30:26Z liuhui $ -->
+<?php if (!defined('THINK_PATH')) exit();?><!-- $Id: goods_info.htm 17126 2010-04-23 10:30:26Z liuhui $ -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>ECSHOP 管理中心 - 添加新商品 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>
-<link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<link href="/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript">
     $(function(){
@@ -71,7 +71,7 @@
 
     <!-- tab body -->
     <div id="tabbody-div" >
-      <form enctype="multipart/form-data" action="__ACTION__" method="post" name="theForm" >
+      <form enctype="multipart/form-data" action="/index.php/Admin/Goods/add" method="post" name="theForm" >
         <!-- 最大文件限制 -->
         <!-- 通用信息 -->
         <table width="90%" id="general-table" align="center">
@@ -85,7 +85,7 @@
             </tr>
           <!--<tr>
             <td class="label">
-            <a href="#" title="点击此处查看提示信息"><img src=".__PUBLIC__/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
+            <a href="#" title="点击此处查看提示信息"><img src="./Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
             <td><input type="text" name="goods_sn" value="" size="20"  /><span id="goods_sn_notice"></span><br />
             <span class="notice-span" style="display:block"  id="noticeGoodsSN">如果您不输入商品货号，系统将自动生成一个唯一的货号。</span></td>
           </tr>-->
@@ -93,9 +93,7 @@
             <td class="label">商品分类：</td>
             <td><select name="cate_prid"  >
                 <option value="0">请选择...</option>
-                <?php foreach($catedata as $v){
-                if($v['parent_id']==0){
-                ?>
+                <?php foreach($catedata as $v){ if($v['parent_id']==0){ ?>
                 <option value="<?php echo $v['id'];?>"><?php echo $v['cate_name'];?></option>
                 <?php }}?>
             </select>
@@ -126,9 +124,9 @@
 请输入商品详情.....
     </script>
                 <!-- 配置文件 -->
-                <script type="text/javascript" src="__PUBLIC__/Admin/js/ueditor/ueditor.config.js"></script>
+                <script type="text/javascript" src="/Public/Admin/js/ueditor/ueditor.config.js"></script>
                 <!-- 编辑器源码文件 -->
-                <script type="text/javascript" src="__PUBLIC__/Admin/js/ueditor/ueditor.all.js"></script>
+                <script type="text/javascript" src="/Public/Admin/js/ueditor/ueditor.all.js"></script>
                 <!-- 实例化编辑器 -->
                 <script type="text/javascript">
                     var ue = UE.getEditor('goods_desc',{
@@ -147,7 +145,7 @@
             <td><input type="text" name="goods_weight" value="" size="20" /> <select name="weight_unit"><option value="1" selected>千克</option><option value="0.001">克</option></select></td>
           </tr>
           <tr>
-            <td class="label"><a href="#" title="点击此处查看提示信息"><img src=".__PUBLIC__/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品库存数量：</td>
+            <td class="label"><a href="#" title="点击此处查看提示信息"><img src="./Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品库存数量：</td>
 
             <td><input type="text" name="goods_number" value="1" size="20" />
           </tr>
@@ -169,7 +167,7 @@
           </tr>
           <tr>
             <td class="label">
-            <a href="#" title="点击此处查看提示信息"><img src=".__PUBLIC__/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商家备注： </td>
+            <a href="#" title="点击此处查看提示信息"><img src="./Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商家备注： </td>
             <td><textarea name="seller_note" cols="40" rows="3"></textarea><br />
             <span class="notice-span" style="display:block"  id="noticeSellerNote">仅供商家自己看的信息</span></td>
           </tr>

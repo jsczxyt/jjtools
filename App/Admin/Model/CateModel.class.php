@@ -30,9 +30,10 @@ class CateModel extends Model{
         foreach($arr as $v){
             if($v['parent_id']==$id){
                 $lst[]=$v['id'];
-                $this->getChild($arr,$v['id']);
+                $this->__getChild($arr,$v['id']);
             }
         }
         return $lst;
     }
+
 }

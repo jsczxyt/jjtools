@@ -1,1 +1,0 @@
-a:5:{i:0;s:2:"Id";i:1;s:7:"news_id";i:2;s:11:"news_detail";s:3:"_pk";s:2:"Id";s:5:"_type";a:3:{s:2:"Id";s:7:"int(11)";s:7:"news_id";s:7:"int(10)";s:11:"news_detail";s:4:"text";}}

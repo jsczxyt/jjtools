@@ -2,8 +2,15 @@
 namespace Admin\Model;
 use Think\Model;
 class GoodsModel extends Model{
+    protected $_validate=array(
+        array('goods_name','require','商品名称不能为空'),
+        array('goods_key','0,20','关键字长度超限',1,'length'),
+        array('cate_id',array(0,'0'),'请选择商品栏目',1,'notin')
+    );
     protected function _before_insert(&$data,$options){
         //图片及缩略图上传模块
+        var_dump($options);
+        exit;
         $res=$this->uploadImage('goods_img','Goods');
         if($res['info']==1){
            $data['goods_ori']=$res['img'][0];

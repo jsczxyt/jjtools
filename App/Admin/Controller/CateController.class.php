@@ -28,6 +28,7 @@ class CateController extends Controller{
         $this->assign('catedata',$catedata);
         $this->display();
     }
+    //栏目修改
     public function edit(){
         $catemodel=D('Cate');
         if(IS_POST){
@@ -53,6 +54,7 @@ class CateController extends Controller{
         $this->assign('info',$info);
         $this->display();
     }
+    //栏目删除
     public function del(){
         $id=$_GET['id']+0;
         $catemodel=D('Cate');
